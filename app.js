@@ -63,7 +63,7 @@ const createSlider = () => {
   if (duration >= 0) {
     duration = duration;
   } else {
-    return alert('Dear, place a Positive time value if you are not a Robot!');
+    return alert('Dear, place a Positive time value to create the Slider!');
   }
   // crate slider previous next area
   sliderContainer.innerHTML = '';
